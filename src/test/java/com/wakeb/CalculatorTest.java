@@ -13,7 +13,7 @@ public class CalculatorTest {
     public void testAddPositive(){
         int sum = Calculator.add(4,7);
 
-        assertEquals(sum, 1);
+        assertEquals(sum, 11);
     }
 
     @Test
