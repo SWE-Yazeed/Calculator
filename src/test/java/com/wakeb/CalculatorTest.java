@@ -25,7 +25,7 @@ public class CalculatorTest {
     @Test
     public void testSubtractPositive(){
         int sum = Calculator.subtract(4,7);
-        assertEquals(sum, 1);
+        assertEquals(sum, -3);
     }
 }
 
